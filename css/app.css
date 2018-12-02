@@ -8,12 +8,29 @@ body {
     background:url(../images/rest1.jpg) no-repeat center;
     margin: 0px;
 }
-
-#name, #titulo, #top_image{
+#contenido {
+  background-color: #72878C;
+  padding: 0px;
+  border:0px solid #000000;
+  border-radius: 10px 10px 0px 0px;
+}
+#top_banner{
+  padding: 0px;
+  margin: 0px;
+}
+#imagen1 {
+  border-radius: 0px 10px 0px 0px;
+  border: 0px;
+}
+#name {
+  padding: 0px 10px 0px 10px;
+  margin: 0px;
+}
+#titulo, #top_image{
   margin: 0px;
   padding: 0px;
 }
-#titulo {
+#titulo, h3{
   font-family: 'Satisfy', cursive;
   font-size: 35px;
   color: #d75c19;
@@ -23,5 +40,60 @@ img {
 	max-width: 100%;
 }
 #slogan {
-  color: #000000;
+  color: #ffffff;
+}
+#navbar_left {
+  padding: 10px 10px 0px 10px;
+  margin-top: 4px;
+  border-radius: 10px 0px 0px 0px;
+  border: 0px;
+  background-color: #B8C5D0;
+}
+#articulos {
+  margin: 0px;
+  padding: 0px;
+}
+#img_center {
+  padding: 10px 10px 0px 10px;
+  margin: 4px 0px 0px 4px;
+  border-radius: 0px 0px 0px 0px;
+  border: 0px;
+  background-color: #B8C5D0;
+}
+#text_center {
+  padding: 0px 10px 0px 10px;
+  margin: 0px 0px 0px 4px;
+  border-radius: 0px 0px 0px 0px;
+  border: 0px;
+  background-color: #B8C5D0;
+}
+#search_box {
+  padding-right: 0px;
+  margin: 0px;
+}
+#my_buttom {
+  margin: 1px 0px 0px 6px;
+  padding: 4px 12px 4px 12px;
+}
+i {
+  margin: 0px;
+  font-size: 26px;
+}
+#img_left{
+  padding: 0px;
+  margin: 0px;
+}
+#img_left div {
+  padding-right: 2px;
+}
+#articulos img {
+  border-radius: 10px 10px 10px 10px;
+}
+#img_center {
+  align: center;
+}
+#textarea {
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px 0px 4px 0px;
 }
