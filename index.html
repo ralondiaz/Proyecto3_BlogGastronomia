@@ -13,18 +13,18 @@
     <title></title>
   </head>
   <body>
+    <div class="expanded row align-center"  id="wrapper">
     <header>
-      <div id="contenido" class="row">
         <div id="top_banner" class="row">
-          <div id="name" class="small-12 medium-12 large-4 columns">
-              <p id="titulo">Prueba Cuba</p>
+          <div id="name" class="expanded columns">
+              <p id="titulo">Delicias Cubanas</p>
               <p id="slogan" class="text-right"><b>Colores y sabores de la comida cubana</b></p>
           </div>
           <div id="top_image" class="large-8 show-for-large columns">
             <img id="imagen1" src="images/comida1.png" alt="">
           </div>
         </div>
-      </div>
+
     </header>
     <div class="row">
       <div id="navbar_left" class="large-4 show-for-large columns">
@@ -42,78 +42,166 @@
             </div>
           </form>
           <nav>
-            <div class="stacked button-group">
-              <a class="button">Inicio</a>
-              <a class="button">El plato del d&iacute;a</a>
-              <a class="button">Recetas</a>
-              <a class="button">Lo Criollo</a>
+            <div id="navegacion" class="stacked button-group">
+              <a href="#" class="button">Inicio</a>
+              <a href="#" class="button">El plato del d&iacute;a</a>
+              <a href="#" class="button">Recetas</a>
+              <a href="#" class="button">Lo Criollo</a>
             </div>
           </nav>
           <figure>
-            <div id="img_left" class="row large-4 ">
-              <div class="large-4">
-                <img src="images/pollo_barbacoa.jpg" alt="" class="thumbnail">
+            <div id="img_left" class="row large-4 align-middle">
+              <div class="column column-block">
+                <a href="#">
+                  <img src="images/ropavieja.jpg" alt="" class="thumbnail">
+                </a>
               </div>
-              <div class="large-4">
-                <img src="images/imperial.jpg" alt="" class="thumbnail">
+              <div class="column column-block">
+                <a href="#">
+                  <img src="images/imperial.jpg" alt="" class="thumbnail">
+                </a>
               </div>
-              <div class="large-4">
-                <img src="images/ropavieja1.jpg" alt="" class="thumbnail">
+              <div class="column column-block">
+                <a href="#">
+                  <img src="images/cerdo.jpg" alt="" class="thumbnail">
+                </a>
               </div>
             </div>
-            <div id="img_left" class="row large-3 align-justify">
-              <div class="large-4">
-                <img src="images/croquetas.jpg" alt="" class="thumbnail">
+            <div id="img_left" class="row large-3 align-middle">
+              <div class="column column-block">
+                <a href="#">
+                  <img src="images/croquetas.jpg" alt="" class="thumbnail">
+                </a>
               </div>
-              <div class="large-4">
-                <img src="images/arrozconleche.jpg" alt="" class="thumbnail">
+              <div class="column column-block">
+                <a href="#">
+                  <img src="images/arrozconleche.jpg" alt="" class="thumbnail">
+                </a>
               </div>
-              <div class="large-4">
-                <img src="images/fritura_malanga.jpg" alt="" class="thumbnail">
+              <div class="column column-block">
+                <a href="#">
+                  <img src="images/fritura_malanga.jpg" alt="" class="thumbnail">
+                </a>
               </div>
             </div>
           </figure>
+          <div id="historial" class="row">
+            <h5>Historial:</h5>
+            <div class="large-12">
+            <ul class="vertical menu">
+              <li><a href="#">Ropa Vieja...</a></li>
+              <li><a href="#">Pollo a la barbacoa...</a></li>
+              <li><a href="#">Croquetas de pollo...</a></li>
+              <li><a href="#">Torrejas caseras...</a></li>
+            </ul>
+            </div>
+          </div>
         </aside>
       </div>
       <div id="articulos" class="small-12 medium-12 large-8 columns">
         <article class="articulos">
-
           <div id="img_center" class="small-12 medium-12 large-12 columns ">
-            <h3 class="subheader">Ropa Vieja</h3>
-            <h6 class="subheader">1 de diciembre 2018</h6>
+            <h3>Ropa Vieja...uno de los platos t&iacute;picos cubanos</h3>
+            <h6>1 de diciembre 2018</h6>
             <figure>
               <img src="images/ropavieja1.jpg" alt="" class="thumbnail text-center">
             </figure>
           </div>
           <div id="text_center" class="small-12 medium-12 large-12 columns text-justify">
             <section>
-              <p>Uno de los platos de la gastronomía cubana que más me gustan. En ello coincidirán muchos de mis paisanos. Y tanto es así que la ropa vieja es apuesta fija en la carta de los restaurantes especializados en este tipo de cocina; aunque tengo que decir, lejos de crítica alguna, que más de una vez me he llevado un fias
-                co a la hora de probar. Es una receta que tiene su cosa y no se trata de echar todo de una vez y dejar que cocine.
+              <p>
+                Uno de los platos de la gastronom&iacute;a cubana que m&aacute;s me gustan. En ello coincidir&aacute;n muchos de mis paisanos. Y tanto es as&iacute; que la ropa vieja es apuesta fija en la carta de los restaurantes especializados en este tipo de cocina; aunque tengo que decir, lejos de cr&iacute;tica alguna, que m&aacute;s de una vez me he llevado un fiasco a la hora de probar.
               </p>
+              <p>
+                Es una receta que tiene su cosa y no se trata de echar todo de una vez y dejar que cocine.
+              </p>
+              <form>
+                <div class="row">
+                  <div id="comentario" class="large-12 columns">
+                    <label>Escriba un comentario:
+                      <textarea id="textarea" placeholder="" class=""></textarea>
+                    </label>
+                    <div class="text-right">
+                      <a href="#" id="my_buttom" class="button round "><i class="fi-pencil"></i>Publicar</a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <div id="com_hist" class="row collapse">
+                <div class="shrink">
+                  <img src="images/avatar3.png" alt="">
+                </div>
+                <div class="columns">
+                  <p><b>Gabriel21:</b> Me gustar&iacute;a que me enviaran la receta, gracias</p>
+                </div>
+              </div>
+              <div id="com_hist" class="row collapse">
+                <div class="shrink">
+                  <img src="images/avatar2.png" alt="">
+                </div>
+                <div class="columns">
+                  <p><b>Laura17:</b> ¿Qu&eacute; tipo de carne se debe utilizar? Gracias</p>
+                </div>
+              </div>
+              <div id="com_hist" class="row collapse">
+                <div class="shrink">
+                  <img src="images/avatar1.png" alt="">
+                </div>
+                <div class="columns">
+                  <p><b>Daniel19</b> Muy delicioso ese plato, lo compartir&eacute; con mi familia, gracias</p>
+                </div>
+              </div>
             </section>
-            <form>
-            <div class="row">
-        <div id="comentario" class="large-12 columns">
-          <label>Escriba un comentario
-            <textarea id="textarea" placeholder="" class=""></textarea>
-          </label>
-          <div class="text-right">
-            <a href="#" id="my_buttom" class="button round "><i class="fi-pencil"></i>Publicar</a>
-          </div>
-
-        </div>
-      </div>
-
-    </form>
           </div>
         </article>
-
+        <article class="articulos">
+          <div id="img_center" class="small-12 medium-12 large-12 columns ">
+            <h3>Pollo a la barbacoa...otra receta de la abuela</h3>
+            <h6>3 de diciembre 2018</h6>
+            <figure>
+              <img src="images/pollo_barbacoa.jpg" alt="" class="thumbnail text-center">
+            </figure>
+          </div>
+          <div id="text_center" class="small-12 medium-12 large-12 columns text-justify">
+            <section>
+              <p>
+                Otra receta de la abuela pero esta vez una muy f&aacute;cil y r&aacute;pida para preparar un exquisito pollo en salsa barbacoa con miel.
+              </p>
+              <p>
+                Para hacer este plato apenas necesitaremos unos 35 minutos de cocci&oacute;n y otros 10 de preparaci&oacute;n, aunque si tienes tiempo siempre puedes emplear un poco m&aacute;s en la preparaci&oacute;n para que la carne absorba m&aacute;s los sabores de la salsa.
+              </p>
+              <p>
+                El pollo a la barbacoa de la abuela tiene un sabor ligeramente agridulce y si sigues con atenci&oacute;n las instrucciones de esta receta f&aacute;cil, el resultado ser&aacute; un pollo crujiente pero tierno y jugoso. ¡No te lo pierdas!
+              </p>
+              <form>
+                <div class="row">
+                  <div id="comentario" class="large-12 columns">
+                    <label>Escriba un comentario:
+                      <textarea id="textarea" placeholder="" class=""></textarea>
+                    </label>
+                    <div class="text-right">
+                      <a href="#" id="my_buttom" class="button round "><i class="fi-pencil"></i>Publicar</a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <div id="com_hist" class="row collapse">
+                <div class="shrink">
+                  <img src="images/avatar2.png" alt="">
+                </div>
+                <div class="columns">
+                  <p><b>Laura17:</b> la verdad la hice y me kedo muy rica muchas gracias</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
       </div>
-
     </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+  </div>
   </body>
 </html>

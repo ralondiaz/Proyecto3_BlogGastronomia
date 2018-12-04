@@ -4,17 +4,39 @@
 body {
   font-family: Advertising;
 }
-#back {
-    background:url(../images/rest1.jpg) no-repeat center;
-    margin: 0px;
+img {
+	max-width: 100%;
 }
-#contenido {
-  background-color: #72878C;
+i {
+  margin: 0px;
+  font-size: 26px;
+}
+a {
+ color: rgba(0,0,0,1);
+}
+p {
+  align: justify;
+}
+#wrapper {
+    background: url("../images/rest1.jpg") no-repeat center center fixed;
+    width: 100% !important;
+    height: 100% !important
+    z-index: 0;
+}
+/* Colores de fondo */
+#top_banner {
+  background-color: rgba(114,135,140,0.8);
+}
+#img_center, #text_center, #search_box, #navegacion, #historial, #img_left {
+  background-color: rgba(184,197,208,0.8);
+}
+/* ---------------*/
+#top_banner {
   padding: 0px;
-  border:0px solid #000000;
+  border:0px solid rgba(0,0,0,1);
   border-radius: 10px 10px 0px 0px;
 }
-#top_banner{
+#titulo, #top_image{
   padding: 0px;
   margin: 0px;
 }
@@ -26,67 +48,49 @@ body {
   padding: 0px 10px 0px 10px;
   margin: 0px;
 }
-#titulo, #top_image{
-  margin: 0px;
-  padding: 0px;
-}
 #titulo, h3{
   font-family: 'Satisfy', cursive;
   font-size: 35px;
-  color: #d75c19;
-  text-shadow: 1px 1px 2px #02010a;
-}
-img {
-	max-width: 100%;
+  color: rgba(255,255,255,1);
+  text-shadow: 2px 2px 4px rgba(2,1,10,1);
 }
 #slogan {
-  color: #ffffff;
+  color: rgba(255,255,255,1);
 }
 #navbar_left {
-  padding: 10px 10px 0px 10px;
+  padding: 0px;
   margin-top: 4px;
-  border-radius: 10px 0px 0px 0px;
-  border: 0px;
-  background-color: #B8C5D0;
 }
 #articulos {
-  margin: 0px;
+  margin: 0px 0px 10px 0px;
   padding: 0px;
 }
 #img_center {
   padding: 10px 10px 0px 10px;
   margin: 4px 0px 0px 4px;
-  border-radius: 0px 0px 0px 0px;
-  border: 0px;
-  background-color: #B8C5D0;
 }
 #text_center {
-  padding: 0px 10px 0px 10px;
+  padding: 0px 10px 5px 10px;
   margin: 0px 0px 0px 4px;
-  border-radius: 0px 0px 0px 0px;
   border: 0px;
-  background-color: #B8C5D0;
 }
 #search_box {
-  padding-right: 0px;
+  padding: 10px 4px 10px 4px;
   margin: 0px;
 }
 #my_buttom {
   margin: 1px 0px 0px 6px;
   padding: 4px 12px 4px 12px;
 }
-i {
-  margin: 0px;
-  font-size: 26px;
-}
-#img_left{
-  padding: 0px;
+#navegacion, #historial {
+  padding: 10px 4px 10px 4px;
   margin: 0px;
 }
 #img_left div {
-  padding-right: 2px;
+  padding: 4px 4px 0px 4px;
+  margin: 0px;
 }
-#articulos img {
+#articulos img, #com_hist img {
   border-radius: 10px 10px 10px 10px;
 }
 #img_center {
@@ -96,4 +100,10 @@ i {
   border-radius: 10px;
   padding: 0px;
   margin: 0px 0px 4px 0px;
+}
+#com_hist {
+  border-radius: 10px;
+  padding: 0px 0px 0px 2px;
+  margin: 6px 0px 6px 0px;
+  background-color: rgba(255,255,255,1);
 }
